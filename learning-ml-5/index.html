@@ -16,12 +16,12 @@
     <!-- ml5 -->
     <script src="https://unpkg.com/ml5@0.3.1/dist/ml5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   </head>
 
-  <body>
+  <body class = "indigo lighten-4">
     <nav>
-      <div class="nav-wrapper purple">
+      <div class="nav-wrapper deep-purple">
         <a href="#" class="brand-logo">Welcome to hacktobertest</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#">Lets learn about ml-5!</a></li>
@@ -30,10 +30,10 @@
         </ul>
       </div>
     </nav>
-    <div class="container">
+    <div class="container " id = "particles-js">
       <div class="row">
        <div class="col s12 m5 push-m3">
-         <div class="card-panel teal">
+         <div class="card-panel blue-grey darken-2">
            <span class="white-text">
              Lets learn a bit about machine learning using a very high-level library , called ml5 by Danniel Siffman.
 
@@ -50,9 +50,9 @@
      </div>
      <div class="row">
       <div class="col s12">
-        <div class="card-panel teal">
+        <div class="card-panel  blue-grey darken-2">
           <span class="white-text">
-            When you feel free to do the first exercise go to:
+            When you feel ready to do the first exercise go to:
 
             <br><br>
 
@@ -61,6 +61,8 @@
             <br><br>
 
             Make sure you read the readme file!!
+
+            <a href="https://github.com/dlgeraghty/hacktobertest/blob/master/README.md">https://github.com/dlgeraghty/hacktobertest/blob/master/README.md</a>
 
             <br><br>
 
@@ -82,7 +84,49 @@
         </div>
       </div>
     </div>
-    </div>
+    <div class="row">
+     <div class="col s12">
+       <div class="card-panel  blue-grey darken-2">
+         <span class="white-text">
+           Okey, now yo are all warmed up
 
+           <br><br>
+
+           Next we are going to be doing an exercise , based on the first one, but instead of recognising static images, we are going to feed it with what our webcam is seeing
+
+           <br><br>
+
+          The code you are given as a starting point (it is a slightly modified version from the first exercise) , can be found in:<a href="https://github.com/dlgeraghty/hacktobertest/tree/master/learning-ml-5/webcam-image-classification">https://github.com/dlgeraghty/hacktobertest/tree/master/learning-ml-5/webcam-image-classification</a>
+
+           <br><br>
+
+           What do you need to change from the first exercise specifically:
+
+            <ul class="collection blue-grey-text">
+              <li class="collection-item">Instead of the createImg function (remember this one is from p5.js library) we now need a function that gets the video from the webcam, but dont worry, this is already implemented in p5.js, find it!</li>
+              <li class="collection-item">We dont need to use the image ready function now...</li>
+              <li class="collection-item">How can we achieve continuous predictions?</li>
+              <li class="collection-item">Note: dont use console.log for the results of this examples, instead, a helper funciton to draw text is given in the code</li>
+            </ul>
+
+           Good luck to you all!
+
+           <br><br>
+
+           Sources, credits and inspiration for this exercise:
+           (Keep in mind that there are spoliers here so please try the exercise before you look here)<br>
+
+           <a href="https://www.youtube.com/watch?v=D9BoBSkLvFo&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=3">https://www.youtube.com/watch?v=D9BoBSkLvFo&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y&index=3</a>
+           <br><a href="https://github.com/CodingTrain/website/tree/master/Courses/beginner_ml5/02_image_classification/images">https://github.com/CodingTrain/website/tree/master/Courses/beginner_ml5/02_image_classification/images</a>
+         </span>
+       </div>
+     </div>
+   </div>
+    </div>
+    <script type="text/javascript">
+      particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded');
+      });
+    </script>
   </body>
 </html>

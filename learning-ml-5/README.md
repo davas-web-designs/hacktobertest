@@ -10,6 +10,8 @@
 
 * Note that, if you are unable to get to this editor or you dont want to use it for some reason, we got yor back, you can write the code and we will chek it to see if its correct!
 
+* For image classification, you can find the pre-trained labels here: https://github.com/ml5js/ml5-library/blob/development/src/utils/IMAGENET_CLASSES.js , use this to check if an existing item in there works correctly and also, to test a non existing thing there (there are 1000 elements present.)
+
 1. Keep in mind that a pre-trained model doesnt have full accuracy but for reasons of complexity is what we are using in these examples. Instead, it has a finite number of elements it knows about. These models come from online so you will need internet access.
 
 2. But , we encourage you to learn and do research about the models and whats behind them.
