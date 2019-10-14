@@ -17,3 +17,5 @@
 2. But , we encourage you to learn and do research about the models and whats behind them.
 
 3. Please keep in mind that: The examples provided here use models that may take some seconds or longer depending on your computer , for them to load. And also, as mentioned earlier, these models come from the internet so that may also be a cause for it to go slowly.
+
+https://dlgeraghty.github.io/hacktobertest/learning-ml-5/
